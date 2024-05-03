@@ -2,25 +2,21 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #ffff99; /* 背景色を黄色に設定 */
-}
-
 .top-page-header {
   width: 100%;
+  height: 200px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center; /* 子要素を垂直方向に中央揃え */
   position: relative;
+  background-color: #ffff99; /* 背景色を黄色に設定 */
 }
 
 .firstkitchen-text {
   position: absolute;
   left: 200px;
-  top: 40px;
+  top: 60px;
   font-size: 24px;
   font-weight: bold;
 
@@ -28,7 +24,7 @@ body {
 
 .search-bar-contents {
   position: absolute;
-  top: 40px;
+  top: 60px;
   width: 100%;
   max-width: 800px;
   display: flex;
@@ -84,7 +80,7 @@ body {
 
 .nav {
   position: absolute;
-  top: 100px;
+  top: 120px;
   width: 100%;
   max-width: 800px;
   display: flex;
