@@ -14,9 +14,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; /* 子要素を垂直方向に中央揃え */
+  position: relative;
+}
+
+.firstkitchen-text {
+  position: absolute;
+  left: 200px;
+  top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+
 }
 
 .search-bar-contents {
+  position: absolute;
+  top: 40px;
   width: 100%;
   max-width: 800px;
   display: flex;
@@ -70,13 +82,9 @@ body {
   font-weight: bold;
 }
 
-.firstkitchen-text {
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: auto;
-}
-
 .nav {
+  position: absolute;
+  top: 100px;
   width: 100%;
   max-width: 800px;
   display: flex;
